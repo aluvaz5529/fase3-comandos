@@ -9,7 +9,7 @@ mkdir Enfermeria
 $ruta = 'X:\Departamentos'
 #Creamos la carpeta que hemos añadido en la variable $ruta
 
-New-SmbShare -Name Publico-RC -Path $ruta -FullAccess Administradores -ReadAccess SMR-GL-Read-DirPublic `
+New-SmbShare -Name comun -Path $ruta -FullAccess Administradores -ReadAccess SMR-GL-Read-DirPublic `
 -ChangeAccess SMR-GL-Change-DirPublico -ConcurrentUserLimit 28 `
 -Description "Carpeta publico para el acceso de usuarios"
 #Lo que se me ha ocurrido para esto es crear un grupo que se llame "común" meter los grupos globales a este grupo local
