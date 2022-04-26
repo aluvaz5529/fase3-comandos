@@ -1,4 +1,4 @@
-#permisos NTFS bien
+REM permisos NTFS bien
 icacls X:/Departamentos /GRANT hgeneral\Comun_x:RX /T
 icacls X:/Departamentos/Enfermeria /GRANT hgeneral\Enfermeria_GL:RXW
 icacls X:/Departamentos/Alergologia /GRANT hgeneral\DirAlergologia_GL:RXW
