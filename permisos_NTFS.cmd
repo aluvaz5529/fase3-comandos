@@ -1,4 +1,4 @@
-REM lo guardo en formato ansi porque si no me salen estos ´╗┐ y como no tengo acentos no hay problema
+#permisos NTFS bien
 icacls X:/Departamentos /GRANT hgeneral\Comun_x:RX /T
 icacls X:/Departamentos/Enfermeria /GRANT hgeneral\Enfermeria_GL:RXW
 icacls X:/Departamentos/Alergologia /GRANT hgeneral\DirAlergologia_GL:RXW
