@@ -1,5 +1,5 @@
-icacls X:/Departamentos /GRANT hgeneral\Gan_GL_R_DirDepartamentos:RX /t
-icacls X:/Departamentos/Enfermeria /GRANT hgeneral\Gan_GL_RW_DirEnfermería:RXW
+icacls X:/Departamentos /GRANT hgeneral\Comun_x:RX /T
+icacls X:/Departamentos/Enfermeria /GRANT hgeneral\G:RXW
 icacls X:/Departamentos/Alergologia /GRANT hgeneral\Gan_GL_RW_DirAlergologia:RXW
 icacls X:/Departamentos/Informatica /GRANT hgeneral\Gan_GL_RW_DirInformática:RXW
 icacls X:/Departamentos/Comunicación_Prensa /GRANT hgeneral\Gan_GL_RW_DirComunicacion_Prensa:RXW
