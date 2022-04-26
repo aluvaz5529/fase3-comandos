@@ -41,4 +41,4 @@ Get-Acl -Path $ruta
 Get-Acl -Path $Infor
 Get-Acl -Path $Aler
 Get-Acl -Path $Prensa
-
+#hay que quitar el de -ReadAccess porque si ya le das de cambio ya le aplica de lectura y se hace lio
