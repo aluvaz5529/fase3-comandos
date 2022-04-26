@@ -36,3 +36,8 @@ New-SmbShare -Name "Alergologia" -Path $Aler -FullAccess "Administradores" -Read
 New-SmbShare -Name "Comunicacion_Prensa" -Path $Prensa -FullAccess "Administradores" -ReadAccess "Comunicacion_Prensa_GL" -ChangeAccess "Comunicacion_Prensa_GL" -ConcurrentUserLimit 28` 
 #Enfermeria
 New-SmbShare -Name "Enfermeria" -Path $Enfer -FullAccess "Administradores" -ReadAccess "Enfermeria_GL" -ChangeAccess "Enfermeria_GL" -ConcurrentUserLimit 28`
+#comprobación
+Get-Acl -Path $ruta
+Get-Acl -Path $Infor
+Get-Acl -Path $Aler
+Get-Acl -Path $Prensa
