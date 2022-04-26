@@ -1,18 +1,18 @@
 icacls X:/Departamentos /GRANT hgeneral\Gan_GL_R_DirDepartamentos:RX /t
 icacls X:/Departamentos/Enfermeria /GRANT hgeneral\Gan_GL_RW_DirEnfermería:RXW
-icacls X:/Departamentos/Alergologia /GRANT hgeneral\Gan_GL_RW_DirArgeológia:RXW
+icacls X:/Departamentos/Alergologia /GRANT hgeneral\Gan_GL_RW_DirAlergologia:RXW
 icacls X:/Departamentos/Informatica /GRANT hgeneral\Gan_GL_RW_DirInformática:RXW
-icacls X:/Departamentos/Comunicación_Prensa /GRANT hgeneral\Gan_GL_RW_DirCyP:RXW
+icacls X:/Departamentos/Comunicación_Prensa /GRANT hgeneral\Gan_GL_RW_DirComunicacion_Prensa:RXW
 
 icacls X:/Departamentos /inheritance:d /T
 icacls X:/Departamentos /remove:g Usuarios
 icacls X:/Departamentos/Enfermeria /inheritance:d /T
 icacls X:/Departamentos/Enfermeria /remove:g Usuarios
-icacls X:/Departamentos/Argeologia /inheritance:d /T
-icacls X:/Departamentos/Argeologia /remove:g Usuarios
+icacls X:/Departamentos/Alergologia /inheritance:d /T
+icacls X:/Departamentos/Alergologia /remove:g Usuarios
 icacls X:/Departamentos/Informatica /inheritance:d /T
 icacls X:/Departamentos/Informatica /remove:g Usuarios
-icacls X:/Departamentos/CyP /inheritance:d /T
-icacls X:/Departamentos/CyP  /remove:g Usuarios
+icacls X:/Departamentos/Comunicacion_Prensa /inheritance:d /T
+icacls X:/Departamentos/Comunicacion_Prensa  /remove:g Usuarios
 
 pause
